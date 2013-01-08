@@ -47,10 +47,10 @@
          
           
             <ul class="nav">
-              <li><a href="/#home">Home</a></li>
-              <li><a href="/#accelerator">Accelerator</a></li>
-              <li><a href="/#perks">Perks</a></li>
-              <li><a href="/#mentors">Mentors</a></li>
+              <li><a href="../#home">Home</a></li>
+              <li><a href="../#accelerator">Accelerator</a></li>
+              <li><a href="../#perks">Perks</a></li>
+              <li><a href="../#mentors">Mentors</a></li>
               <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEFVU0piWUQ5SzNmNjc0WGhiVFlMUHc6MQ#gid=0" style="color: #FF1440;">Sign Up</a></li>
             </ul>
           
@@ -69,7 +69,7 @@
       	</div> 
   			<ul class="thumbnails">        
           <li ng-repeat="mentor in mentors" class="span2" style="height: 300px">
-            <a href="{{mentor.website}}"><img ng-src="{{mentor.image}}" class="img-rounded" alt=""></a>
+            <a href="{{mentor.website}}"><img ng-src="{{mentor.image}}" class="img-rounded" width="120" height="120" alt="{{mentor.name}}"></a>
             <div classs="caption">
               <h3><a href="{{mentor.website}}">{{mentor.name}}</a></h3>
               <p><a href="{{mentor.website}}">{{mentor.website_text}}</a></p>
