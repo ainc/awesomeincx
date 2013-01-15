@@ -37,23 +37,21 @@
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-		$("#map").gMap({ controls: false,
+		$("#map").gMap({  controls: false,
 		                  scrollwheel: false,
-                          draggable: false,
-		                  markers: [{ latitude: 52.218545549866356,
-		                              longitude: 21.005859375,
-		                              icon: { image: "img/pin.png",
-		                                      iconsize: [32, 47],
-		                                      iconanchor: [32,47],
-		                                      infowindowanchor: [12, 0] } }
+                      draggable: false,
+		                  markers: [{ latitude: 38.04206,
+		                              longitude: -84.49257,
+                                  icon: { 
+                                    image: "http://www.google.com/mapfiles/marker.png",
+                                    iconsize: [20, 34],
+                                    iconanchor: [9, 34] 
+                                  } 
+                                }
 		                            ],
-		                  icon: { image: "img/pin.png", 
-		                          iconsize: [26, 46],
-		                          iconanchor: [12, 46],
-		                          infowindowanchor: [12, 0] },
-		                  latitude: 52.218545549866356,
-		                  longitude: 21.005859375,
-		                  zoom: 13 });
+		                  latitude: 38.04106,
+                      longitude: -84.49257,
+		                  zoom: 14 });
 	});
 	</script>
     
@@ -181,7 +179,7 @@
     </div> <!-- /about -->   
 
     <!-- /Timeline ############################################### -->      
-<div id="gallery">
+    <div id="gallery">
     
       <div class="container">
         <br>
@@ -190,7 +188,19 @@
 <center><img src="img/timeline.png"></center>
         </div><!-- /container -->
     </div>
+    <!-- /Timeline ############################################### -->
+
+
+    <!-- MAP ############################################### -->
     
+    <div id="contact">
+    
+      <div class="container" id="map">
+    </div> <!-- /container -->
+    
+    </div> <!-- /contact -->  
+
+    <!-- /MAP ############################################### -->
 
     <!-- WORK 01 ############################################### -->
     
