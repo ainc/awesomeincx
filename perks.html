@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Inc - The Accelerator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Awesome Inc - a seed-stage accelerator for web and mobile startups.">
+    <meta name="author" content="">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">    
+    <link href="css/exo-font.css" rel="stylesheet">
+    <link href="css/journal-font.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">	
+	<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">	
+	<link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Script files -->
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.flexslider.js"></script> 
+	<script src="js/jquery.fancybox-1.3.4.pack.js"></script> 
+    <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/mentors.js"></script>
+    <style> 
+
+	
+
+	tr.header {
+		background: #1d1d1d url(img/gallery_bg.jpg) repeat center;
+		height: 30px;
+	}
+
+	tr.header th {
+		padding: 6px;
+	}
+
+	tr.header h3 {
+		font: 26px 'ExoThin', Arial, sans-serif;
+		text-transform: uppercase;
+		color: #ff1440;
+		padding: 0;
+		margin: 0;
+
+	}
+
+
+    </style>
+
+  </head>
+
+
+
+  <body data-spy="scroll" data-target=".navbar" onResize="window.location.href = window.location.href"  ng-app >
+  
+    <!-- NAVBAR ############################################### -->
+    <div class="navbar navbar-fixed-top" id="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+         
+         <a href="index.html#home" class="brand hidden-phone" id="brand" ><img src="img/logo.png" alt=""></a>
+         
+          
+            <ul class="nav">
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#accelerator">Accelerator</a></li>
+              <li><a href="index.html#perks">Perks</a></li>
+              <li><a href="index.html#mentors">Mentors</a></li>
+              <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEFVU0piWUQ5SzNmNjc0WGhiVFlMUHc6MQ#gid=0" style="color: #FF1440;">Sign Up</a></li>
+            </ul>
+          
+        </div>
+      </div>
+    </div>
+    <!-- /NAVBAR ############################################### -->
+    <div>
+    
+    	<div class="container" ng-controller="MentorsCtrl">
+    		
+  			<div class="row head1">
+    			<div class="span12" >
+    				<h2>Perks</h2>
+    			</div>
+      	</div> 
+  			
+
+	<div>
+
+
+<table id="benefit" align = "center" cellpadding = "15" width = "500">
+<tbody>
+<tr class="header">
+<th colspan="2" align="left"><h3>Funding</h3></th><th><h3>Value</h3></th>
+</tr>
+<tr>
+<td><img src="img/funding.png" height="80" width="100"/></td>
+<td class="info">Up to 20k in funding for your company.</td>
+<td align="center"><strong>$20,000</strong></td>
+</tr>
+<tr class="header">
+<th colspan="2" align="left"><h3>Talent</h3></th><th><h3>Value</h3></th>
+</tr>
+<tr>
+<td><img src="img/programmers.png" height="80" width="100"/></td>
+<td class="info">Access to tech talent that can offset development and design needs your team might need.</td>
+<td align="center"><strong>$5,000</strong></td>
+</tr>
+<tr>
+<td><img src="img/graphic.png" height="80" width="100"/></td>
+<td class="info">Access to graphic designers that will work with your startup to help you with branding.</td>
+<td align="center"><strong>$2,000</strong></td>
+</tr>
+<tr>
+<td><img src="img/TeamAlphaLogo.jpg" height="80" width="100"/></td>
+<td class="info">Access to the best interns in town - team alpha. Read more about them <a href="http://www.awesomeinc.org/team-alpha">here</a></td>
+<td align="center"><strong>$1,000</strong></td>
+</tr>
+<tr class="header">
+<th colspan="2" align="left"><h3>Space</h3></th><th><h3>Value</h3></th>
+</tr>
+<tr>
+<td><img src="img/coworking.jpg" height="80" width="100"/></td>
+<td class="info">Free office space for your entire team at the Awesome Inc co-working space - including desk space, internet, printing, conference room, mailing address, ping pong table, etc.</td>
+<td align="center"><strong>$7,200</strong></td>
+</tr>
+<tr>
+<td><img src="img/dreamhost.svg" height="80" width="100"/></td>
+<td class="info">Free hosting of websites and databases on Dreamhost servers for up to 12 months</td>
+<td align="center"><strong>$500</strong></td>
+</tr>
+<tr class="header">
+<th colspan="2" align="left"><h3>Support</h3></th><th><h3>Value</h3></th>
+</tr>
+<tr>
+<td><img src="img/legal.png" height="80" width="100"/></td>
+<td class="info">Access to attorneys that will assist you with legal filing of your startup - including assistance with documents such as Articles of Organization, Operating Agreement, and more.</td>
+<td align="center"><strong>$4,000</strong></td>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+<td><img src="img/food.png" height="80" width="100"/></td>
+<td class="info">At minimum, a free meal a week</td>
+<td align="center"><strong>$300</strong></td>
+</tr>
+<tr>
+</tr>
+<tr class="header">
+<th colspan="2" align="left"><h3>Experience</h3></th><th><h3>Value</h3></th>
+</tr>
+<tr>
+<td><strong>Project Management</strong></td>
+<td class="info">Access to experienced project managers</td>
+<td align="center"><strong>$1,000</strong></td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td><strong>Mentors</strong></td>
+<td class="info">A mentor network including entrepreneurs, investors, attorneys, accountants, and other great connections. The mentor network can be found <a href="/mentors">here</a></td>
+<td align="center">n/a</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td><strong>Coaching</strong></td>
+<td class="info">Assistance with customer development, product development, business model canvasing, fundraising, and help on other pressing issues that arise for a startup.</td>
+<td align="center">n/a</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+
+<p></p>
+			
+     		</div>
+
+
+
+    	</div> <!-- /container -->
+    
+    </div> <!-- /about -->
+
+	<!-- FOOTER ############################################### -->
+   
+     <div id="footer">
+    
+    	<div class="container">
+        	
+			<div class="row" id="footer_bar">
+            	<div class="span12" >
+            		<p>&copy;2013 Awesome Inc</p>
+            	</div>
+        	</div> 
+
+      	</div><!-- /container -->
+    </div><!-- /footer -->
+
+    <!-- /Footer ############################################### -->
+    
+    <!-- /Google Analytics ############################################### -->
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-2028878-11']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+<!-- /Google Analytics ############################################### -->
+
+  </body>
+</html>
