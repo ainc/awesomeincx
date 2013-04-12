@@ -139,8 +139,8 @@ figure a:before {
 a.enlarge:before {
 	content: "+";
 }
-#work1 figure {margin-bottom:15px;}
-#work1 figure a:before {color: #ff1440;}
+#perks figure {margin-bottom:15px;}
+#perks figure a:before {color: #ff1440;}
 
 
 .circle {
@@ -313,19 +313,19 @@ a.enlarge:before {
 /*--------------------------------------------------------------------------------------------------*/
 
 
-/* WORK 01  */
+/* Perks  */
 
 
-#work1 {background-color: #fff; }
+#perks {background-color: #fff; }
 
 
-#work1 h3 {font: 30px 'ExoThin', Arial, sans-serif; text-transform: uppercase; color: #ff1440;}
+#perks h3 {font: 30px 'ExoThin', Arial, sans-serif; text-transform: uppercase; color: #ff1440;}
 
-#work1 h4 {font:20px/20px 'JournalRegular', Arial, sans-serif;color:#7ca5b7; margin-bottom:25px;}
+#perks h4 {font:20px/20px 'JournalRegular', Arial, sans-serif;color:#7ca5b7; margin-bottom:25px;}
 
-#work1 p {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:20px;}
+#perks p {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:20px;}
 
-#work1-slider {background:none; height:351px;}
+#perks-slider {background:none; height:351px;}
 /*--------------------------------------------------------------------------------------------------*/
 
 
