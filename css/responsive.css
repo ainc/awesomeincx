@@ -593,7 +593,7 @@
   .head1, .head2, .head3 {margin-left:0px;}
   .flex-control-nav { left:470px; top:200px}
   .margin-left {margin-left:40px;}
-  #work1-slider,#work2-slider,#work3-slider,#work4-slider {background:none; height:351px; margin-bottom:-81px; margin-top:100px; }
+  #perks-slider,#work2-slider,#work3-slider,#work4-slider {background:none; height:351px; margin-bottom:-81px; margin-top:100px; }
   #form fieldset {padding-left:30px; }
   #contact-form label {margin-left:-20px}
   #contact-form .input-text, 
@@ -852,7 +852,7 @@
   .flex-control-nav {left:700px; }
   .flex-control-nav li {margin: 10px 0 0 0;}
   .margin-left {margin-left:85px;}
-  #work1-slider,#work2-slider,#work3-slider,#work4-slider {background:none; height:351px; margin-bottom:2px;}
+  #perks-slider,#work2-slider,#work3-slider,#work4-slider {background:none; height:351px; margin-bottom:2px;}
   #contact-form .input-text, 
   #contact-form .input-textarea {width:630px;}
 }

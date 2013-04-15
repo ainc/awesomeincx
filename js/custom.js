@@ -69,7 +69,7 @@ if (iOS) {
 
 
 //flexsliders for the works section - here you need to add/remove slider id when adding/removing portfolio position
-$('#work1-slider, #work2-slider, #work3-slider, #work4-slider ').flexslider({
+$('#perks-slider, #work2-slider, #work3-slider, #work4-slider ').flexslider({
   directionNav: false,
   controlNav: true,
   keyboardNav: false,
